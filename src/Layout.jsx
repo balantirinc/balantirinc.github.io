@@ -7,8 +7,8 @@ const PathLocation = () => {
 // Here will also contain the nav component(s)
 export function Layout() {
   return (
-      <main>
-        <Outlet />
-      </main>
+    <main>
+      <Outlet />
+    </main>
   )
 }
