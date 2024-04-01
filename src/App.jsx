@@ -1,12 +1,28 @@
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HomePlaceholder } from './pages/homeplaceholder'
+import { HomePage } from './pages/homepage'
+import { Layout } from './Layout'
+import {config } from './config'
+
 import './App.css'
 
 function App() {
 
+  const homeSelector = () => config.showHomepage ? <HomePage /> : <HomePlaceholder />
+
   return (
-    <div>
-      <h1 className='text-7xl'>Balantir</h1>
-      <p className='pt-6'>Coming soon...</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route 
+        path="/"
+        element= {
+          <Layout />
+        }
+        />
+        <Route index element={homeSelector()} />
+      </Routes>
+    </Router>
   )
 }
 
