@@ -1,4 +1,4 @@
-// import '../../src/indexHomeplaceholder.css'
+import '../../src/indexHomeplaceholder.css'
 
 export function HomePlaceholder() {
   return (
