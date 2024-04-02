@@ -1,4 +1,4 @@
 const config = {
-  showHomepage: false,
+  showHomepage: true,
 }
 export { config }
