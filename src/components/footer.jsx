@@ -2,23 +2,23 @@ import balantirLogo from './../assets/logos/balantir_logo_beta.png'
 
 const navigation = {
   solutions: [
-    { name: 'Marketing', href: '#' },
-    { name: 'Analytics', href: '#' },
-    { name: 'Commerce', href: '#' },
-    { name: 'Insights', href: '#' },
+    { name: 'Talent', href: '#' },
+    { name: 'Cherry Picking Collaborators', href: '#' }, // Cherry Picking (Selecting) Collaborators
+    { name: 'AI Feedback Reviews', href: '#' },
+    { name: 'From Idea To Prod', href: '#' },
   ],
-  support: [
-    { name: 'Pricing', href: '#' },
-    { name: 'Documentation', href: '#' },
-    { name: 'Guides', href: '#' },
-    { name: 'API Status', href: '#' },
+  offerings: [
+    { name: 'Food Industry', href: '#' },
+    { name: 'Steel & Metal', href: '#' },
+    { name: 'Financial Services', href: '#' },
+    { name: 'Retail', href: '#' },
+    { name: 'Research & Development', href: '#' },
   ],
   company: [
-    { name: 'About', href: '#' },
-    { name: 'Blog', href: '#' },
-    { name: 'Jobs', href: '#' },
-    { name: 'Press', href: '#' },
-    { name: 'Partners', href: '#' },
+    { name: 'About Us', href: '#' },
+    { name: 'Developers', href: '#' },
+    { name: 'Privacy & Safety', href: '#' },
+    { name: 'Sitemap', href: '#' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -125,10 +125,10 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Support
+                  Offerings
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.support.map((item) => (
+                  {navigation.offerings.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
@@ -161,7 +161,7 @@ export default function Footer() {
               </div>
               <div className="mt-10 md:mt-0">
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Legal
+                  Other
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
                   {navigation.legal.map((item) => (
