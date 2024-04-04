@@ -6,13 +6,13 @@ const navigation = {
     { name: 'Cherry Picking Collaborators', href: '#' }, // Cherry Picking (Selecting) Collaborators
     { name: 'AI Feedback Reviews', href: '#' },
     { name: 'From Idea To Prod', href: '#' },
+    { name: 'Research & Development', href: '#' },
   ],
   offerings: [
     { name: 'Food Industry', href: '#' },
     { name: 'Steel & Metal', href: '#' },
     { name: 'Financial Services', href: '#' },
     { name: 'Retail', href: '#' },
-    { name: 'Research & Development', href: '#' },
   ],
   company: [
     { name: 'About Us', href: '#' },
