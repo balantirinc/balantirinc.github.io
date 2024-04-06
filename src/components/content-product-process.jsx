@@ -87,7 +87,7 @@ export default function ContentProductProcess() {
               We use a different set of techniques to enable faster iterations.
               From deeply understanding your requirements, using in-house pre
               made solutions, analyzing and correcting bottlenecks, removing
-              bureaucracy and more.
+              bureaucracy, priotizing what is important and more.
             </p>
             <ul role="list" className="mt-8 max-w-xl space-y-8 text-gray-600">
               <li className="flex gap-x-3">

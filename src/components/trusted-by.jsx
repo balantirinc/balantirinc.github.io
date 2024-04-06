@@ -8,13 +8,12 @@ export default function TrustedBy() {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:max-w-none">
-          <h2 className="text-lg font-semibold leading-8 text-gray-900">
+        <div className="mx-auto max-w-2xl lg:max-w-none lg:text-center">
+          <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900  sm:text-4xl">
             {/* Trusted by the world’s most innovative teams */}
             {/* Our collaborators have worked for projects at */}
-            Our collaborators have worked on projects from
-            {/* Currently there's 5 tiles */}
-            {/* We can have: Kellogs, GAP, Ternium, LendingClub, Globant */}
+            {/* Our collaborators have worked on projects from */}
+            Trusted by the most innovative companies
           </h2>
           <div className="mx-auto mt-10 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
             <img

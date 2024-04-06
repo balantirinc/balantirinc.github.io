@@ -15,7 +15,7 @@ const features = [
   {
     name: 'Selecting the best talent',
     description:
-      'Not only technical but also culturally. We ensure that you get the best team members for your open positions.',
+      'Not only technical but also culturally. We ensure that you get the best talent for your open positions.',
     href: '#', // link: How we achieve this?
     icon: LockClosedIcon,
   },
