@@ -15,7 +15,7 @@ export default function TrustedBy() {
             {/* Our collaborators have worked on projects from */}
             Trusted by the most innovative companies
           </h2>
-          <div className="mx-auto mt-10 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
+          <div className="mx-auto mt-16 sm:mt-20 lg:mt-24 grid grid-cols-4 items-center gap-x-8 gap-y-10 sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:grid-cols-5">
             <img
               className="col-span-2 max-h-12 w-full object-contain  lg:col-span-1"
               src={kelloggsLogo}

@@ -17,13 +17,13 @@ const navigation = {
   company: [
     { name: 'About Us', href: '#' },
     { name: 'Developers', href: '#' },
-    { name: 'Privacy & Safety', href: '#' },
-    { name: 'Sitemap', href: '#' },
+    { name: 'Our Mission', href: '#' },
+    { name: 'Careers', href: '#' },
   ],
   legal: [
-    { name: 'Claim', href: '#' },
-    { name: 'Privacy', href: '#' },
     { name: 'Terms', href: '#' },
+    { name: 'Privacy & Safety', href: '#' },
+    { name: 'Sitemap', href: '#' },
   ],
   social: [
     {

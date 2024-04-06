@@ -1,30 +1,30 @@
 import {
-  ArrowPathIcon,
-  CloudArrowUpIcon,
-  LockClosedIcon,
+  BookOpenIcon,
+  ClipboardDocumentCheckIcon,
+  RocketLaunchIcon,
 } from '@heroicons/react/20/solid'
 
 const features = [
   {
     name: 'Know your staffing needs',
     description:
-      'Commodo nec sagittis tortor mauris sed. Turpis tortor quis scelerisque diam id accumsan nullam tempus. Pulvinar etiam lacus volutpat eu. Phasellus praesent ligula sit faucibus.',
+      'Our unmatched strategy for selecting talent gives you collaborators that exceeds your staffing expectations.',
     href: '#',
-    icon: CloudArrowUpIcon,
+    icon: BookOpenIcon,
   },
   {
     name: 'Selecting the best talent',
     description:
       'Not only technical but also culturally. We ensure that you get the best talent for your open positions.',
     href: '#', // link: How we achieve this?
-    icon: LockClosedIcon,
+    icon: ClipboardDocumentCheckIcon,
   },
   {
-    name: 'Simple queues',
+    name: 'Begin your digital transfomation',
     description:
-      'Pellentesque sit elit congue ante nec amet. Dolor aenean curabitur viverra suspendisse iaculis eget. Nec mollis placerat ultricies euismod ut condimentum.',
+      'We work together to ensure your path to digital transformation happens.',
     href: '#',
-    icon: ArrowPathIcon,
+    icon: RocketLaunchIcon,
   },
 ]
 
