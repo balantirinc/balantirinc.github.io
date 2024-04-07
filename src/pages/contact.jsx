@@ -1,10 +1,10 @@
 import Footer from '../components/footer'
-import HeroDiagonal from '../components/hero-diagonal'
+import NavMenuWithoutHero from '../components/nav-menu-without-hero'
 
 export function Contact() {
   return (
     <>
-      <HeroDiagonal />
+      <NavMenuWithoutHero />
 
       <Footer />
     </>

@@ -3,6 +3,8 @@ import balantirLogo from './../assets/logos/balantir_logo_beta.png'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+import { config } from '../config'
+
 const navigation = [
   { name: 'Products', href: '#' },
   { name: 'Solutions', href: '#' },
@@ -24,9 +26,9 @@ export default function HeroDiagonal() {
               aria-label="Global"
             >
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Balantir</span>
+                <span className="sr-only">{config.companyName}</span>
                 <img
-                  alt="Balantir Inc. Logo"
+                  alt={config.companyLogoAlt}
                   className="h-8 w-auto"
                   src={balantirLogo}
                 />
@@ -63,11 +65,11 @@ export default function HeroDiagonal() {
           <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
-                <span className="sr-only">Balantir</span>
+                <span className="sr-only">{config.companyName}</span>
                 <img
                   className="h-8 w-auto"
                   src={balantirLogo}
-                  alt="Balantir Inc Logo"
+                  alt={config.companyLogoAlt}
                 />
               </a>
               <button
@@ -122,8 +124,8 @@ export default function HeroDiagonal() {
               <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-xl">
                 <div className="hidden sm:mb-10 sm:flex">
                   <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-                    How Balantir was able to supply 75+ developers in less than
-                    3 weeks.{' '}
+                    How {config.companyName} was able to supply 75+ developers
+                    in less than 3 weeks.{' '}
                     <a
                       href="#"
                       className="whitespace-nowrap font-semibold text-indigo-600"
@@ -137,9 +139,9 @@ export default function HeroDiagonal() {
                   Highly technical partners to enrich your business
                 </h1>
                 <p className="mt-6 text-lg leading-8 text-gray-600">
-                  At Balantir our promise is to deliver great products with a
-                  foundation of collaborators that have great expertise in their
-                  area.
+                  At {config.companyName} our promise is to deliver great
+                  products with a foundation of collaborators that have great
+                  expertise in their area.
                 </p>
                 <div className="mt-10 flex items-center gap-x-6">
                   <a
